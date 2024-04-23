@@ -16,7 +16,7 @@ body {
 .header_area {
     background-color: whitesmoke;
     width: 100%;
-     margin-top: -8rem; 
+     margin-top: -6rem; 
     padding: 10px 30px; 
     border-bottom: 1px solid #909090ad; 
     position: fixed;
@@ -91,7 +91,7 @@ body {
     display: flex;
     flex-direction: row;
     flex: 1 2;
-    margin: 15rem 2rem 2rem;
+    margin: 5rem 2rem 2rem;
     gap: 2rem;
     
 }
@@ -105,8 +105,8 @@ body {
     line-height: 1.5;
 }
  .image_Container img{
-    width: 300px;
-    height: 400px;
+    width: 500px;
+    height: 550px;
     padding-right: 1rem;
 }  
 
