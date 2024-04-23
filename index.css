@@ -191,6 +191,20 @@ body {
     .primary_menu a {
         padding: 5px; 
     }
-
+    .Description_Container{
+        display: flex;
+        flex-direction: column;
+        flex: 1 2;
+        margin: 5rem 2rem 2rem;
+        gap: 2rem;
+        
+    }
+    .sub_description{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: 2rem;
+        padding: 2rem;
+    }
 }
  
