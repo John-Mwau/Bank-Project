@@ -8,13 +8,16 @@
 
 body {
     font-family: 'Times New Roman', Times, serif;
-   /*  overflow-x: hidden; */
+
+   
 }
 
+/* Navigation Window */
 .header_area {
     background-color: whitesmoke;
     width: 100%;
-    padding: 10px 30px;
+     margin-top: -8rem; 
+    padding: 10px 30px; 
     border-bottom: 1px solid #909090ad; 
     position: fixed;
 }
@@ -82,17 +85,30 @@ body {
     border-radius: 20px;
     background-color: hsl(136, 65%, 51%);
 }
+
+/*  Content Part 1 Styling*/
 .Description_Container{
     display: flex;
     flex-direction: row;
-    /* margin: 5px 20px;
-    position: relative;
-    top: auto;
-    margin-top: 100px; */
+    flex: 1 2;
+    margin: 8rem 2rem 2rem;
+    gap: 2rem;
+    
 }
-.content h1{
-    padding: 1opx;
+.container h1{
+    padding: 1rem 2rem;
+    line-height: 1.5;
 }
+.container p{
+    font-size: 25px;
+    padding: 2rem;
+    line-height: 1.5;
+}
+ .image_Container img{
+    width: 500px;
+    height: 500px;
+    padding-right: 1rem;
+}  
 
 /* Styling Description Content */
 .main_description{
