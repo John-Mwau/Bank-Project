@@ -9,7 +9,6 @@
 body {
     font-family: 'Times New Roman', Times, serif;
 
-   
 }
 
 /* Navigation Window */
@@ -19,6 +18,7 @@ body {
     padding: 10px 30px; 
     border-bottom: 1px solid #909090ad; 
     position: fixed;
+    margin-top: -5rem;
 }
 
 .header_container {
@@ -44,7 +44,7 @@ body {
     color: hsl(233, 26%, 24%);
     text-decoration: none;
     position: relative;
-    font-weight: 500;
+    font-weight: 700;
     letter-spacing: 1px;
     padding: 15px 10px;
     transition: all 0.3s;
@@ -52,7 +52,7 @@ body {
 
 .primary_menu a:hover,
 .primary_menu:active {
-    color: lightgreen;
+    color: hsl(136, 65%, 51%);
 }
 
 .mobile_nav {
@@ -76,17 +76,18 @@ body {
     
 }
 .request_btn button{
-    color: azure;
+    color: hsl(0, 0%, 100%);
     font-weight: bold;
     letter-spacing: 2px;
     text-align: center;
     padding: 15px;
     border-radius: 20px;
-    background-color: hsl(136, 65%, 51%);
+    /* background-color: hsl(136, 65%, 51%); */
+    background-image: linear-gradient(-10deg, hsl(233, 8%, 62%) 0%, hsl(136, 65%, 51%) 130%);
 }
 
 
-/* .Description_Container{
+.Description_Container{
     display: flex;
     flex-direction: row;
     flex: 1 2;
@@ -143,7 +144,7 @@ body {
     font-size: 20px;
     line-height: 1.5;
     text-align: justify;
-} */
+} 
 
 /* Media Screens */
 @media screen and (max-width: 980px) {
@@ -154,14 +155,22 @@ body {
         display: block;
         z-index: 999;
     }
+    .primary_menu a {
+        font-size: 24px;
+        color: hsl(0, 0%, 100%);
 
+    }
+    .primary_menu a:hover,
+    .primary_menu:active {
+    color: hsl(0, 0%, 100%);
+}
     .site_nav_menu {
         position: absolute;
         width: 100%;
         height: 70vh;
         top: 80px;
         left: 0PX;
-        background-color:  hsl(233, 8%, 62%);
+       background: linear-gradient(-40deg, hsl(234, 13%, 41%) 0%, hsl(135, 33%, 37%) 130%);
         display: flex;
         flex-direction: column;
         justify-content: center;
